@@ -28,7 +28,7 @@ function Home() {
     if(posts.length === 0 && loginStatus){
         return(<div className='w-full py-8 text-center'>
                 <Container>
-                    <h1 className='text-3xl font-bold'>Write Post <Link to='/login' className='text-blue-800'>Here</Link>.</h1>
+                    <h1 className='text-3xl font-bold'>Write Post <Link to='/add-post' className='text-blue-800'>Here</Link>.</h1>
                 </Container>
             </div>)
     }
