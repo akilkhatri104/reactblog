@@ -1,8 +1,49 @@
-# React + Vite
+# React Blog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based blogging platform using Appwrite for backend services.
 
-Currently, two official plugins are available:
+## Installation Instructions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/akilkhatri104/reactblog.git
+   cd reactblog
+   ```
+
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Set Up Environment Variables**:
+   - Copy the `.env-sample` file to `.env`:
+     ```bash
+     cp .env-sample .env
+     ```
+   - Fill in the required environment variables in the `.env` file.
+
+4. **Run the Development Server**:
+   ```bash
+   npm run dev
+   ```
+
+5. **Build for Production**:
+   ```bash
+   npm run build
+   ```
+
+6. **Preview the Production Build**:
+   ```bash
+   npm run preview
+   ```
+
+## Features
+
+- User authentication with Appwrite.
+- Create, edit, and delete blog posts.
+- Rich text editor integration with TinyMCE.
+- Responsive design using Tailwind CSS.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
