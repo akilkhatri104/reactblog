@@ -44,6 +44,3 @@ A React-based blogging platform using Appwrite for backend services.
 - Rich text editor integration with TinyMCE.
 - Responsive design using Tailwind CSS.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
